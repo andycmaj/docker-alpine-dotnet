@@ -1,4 +1,4 @@
-FROM d.ims.io/alpine-mono-dnx:0.0.1
+FROM andycunn/alpine-mono-dnx:1.0.1
 
 ENV MONO_MANAGED_WATCHER false
 

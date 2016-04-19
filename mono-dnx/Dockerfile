@@ -2,7 +2,7 @@ FROM alpine:3.3
 
 # Prevent `dnu restore` from stalling (gh#63, gh#80)
 ENV MONO_THREADS_PER_CPU 50
-ENV MONO_VERSION 4.2.2.30-2
+ENV MONO_VERSION 4.4.0.40-2
 ENV DNX_VERSION 1.0.0-rc1-update1
 ENV DNX_USER_HOME /opt/dnx
 ENV PATH $PATH:$DNX_USER_HOME/runtimes/default/bin
